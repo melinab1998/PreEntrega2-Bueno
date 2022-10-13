@@ -255,3 +255,80 @@ background-color:#F0F3BD;
     font-size: 1rem;
 }
 
+@media screen and (max-width:320px) {
+
+    
+    .header{
+        flex-direction: column;
+        height: 400px;
+        align-items: stretch;
+    }    
+
+    .header__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__item{
+        margin:0px;
+        text-align: center;
+        padding: 0.7rem;
+    } 
+
+    .header__logo{
+        max-width: 100px;
+        margin-left: 5rem;
+    }
+
+    .hero{
+        height: 50vh;
+        display: flex;
+    }
+
+    .hero__wrapper{
+        justify-content: center;
+    }
+
+    .hero__heading{
+        font-size: 2.2rem;
+    }
+
+    .hero__slogan{
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        display: block;
+        margin: 2rem 5rem;
+        padding: 0.5rem;  
+        max-width: 10rem;  
+    }
+    
+    .dest{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .destcard{
+        margin-top: 1rem;
+    }
+
+    .destcard__img{
+        width: 256px;
+        height: 256px;
+    }
+
+    .destcard__titulo{
+        text-align: center;
+    }
+
+    .pie{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .pie__1{
+        padding:1.5rem;
+    }
+}
