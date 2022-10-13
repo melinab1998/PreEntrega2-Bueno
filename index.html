@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./estilos/css/styles.css">
 </head>
 <body>
@@ -47,42 +49,42 @@
         </section>
     
         <section class="dest"> 
-                <div class="destcard">
+                <div class="destcard" data-aos="fade-right">
                     <img class="destcard__img" src="./img/dest-bariloche.jpg" alt="BARILOCHE">
                     <h2 class="destcard__titulo">BARILOCHE</h2>
                     <P class="destcard__fecha">Febrero 2023</P>
                     <a class="btn1" href="./vistas/paquetes.html">VER MÁS</a>
                 </div>
 
-                <div class="destcard">
+                <div class="destcard" data-aos="fade-down">
                     <img class="destcard__img"src="./img/dest-mendoza.jpg" alt="MENDOZA">
                     <h2 class="destcard__titulo">MENDOZA</h2>
                     <P class="destcard__fecha">Diciembre 2022</P>
                     <a class="btn1" href="./vistas/paquetes.html">VER MÁS</a>
                 </div>
 
-                <div class="destcard">
+                <div class="destcard" data-aos="fade-left">
                     <img class="destcard__img" src="./img/dest-gesell.jpg" alt="VILLAGESELL">
                     <h2 class="destcard__titulo">VILLA GESELL</h2>
                     <P class="destcard__fecha">Enero 2023</P>
                     <a class="btn1" href="./vistas/paquetes.html">VER MÁS</a>
                 </div>
 
-                <div class="destcard">
+                <div class="destcard" data-aos="fade-right">
                     <img class="destcard__img" src="./img/dest-cataratas.jpg" alt="CATARATAS">
                     <h2 class="destcard__titulo">CATARATAS</h2>
                     <P class="destcard__fecha">Marzo 2023</P>
                     <a class="btn1" href="./vistas/paquetes.html">VER MÁS</a>
                 </div>
 
-                <div class="destcard">
+                <div class="destcard" data-aos="fade-up">
                     <img class="destcard__img" src="./img/dest-riodejaneiro.jpg" alt="RIO">
                     <h2 class="destcard__titulo">RIO DE JANEIRO</h2>
                     <P class="destcard__fecha">Febrero 2023</P>
                     <a class="btn1" href="./vistas/paquetes.html">VER MÁS</a>
                 </div>
 
-                <div class="destcard">
+                <div class="destcard" data-aos="fade-left">
                     <img class="destcard__img" src="./img/dest-machu.jpg" alt="MACHU">
                     <h2 class="destcard__titulo">MACHU PICCHU</h2>
                     <P class="destcard__fecha">Mayo 2023</P>
@@ -93,12 +95,16 @@
 
     <footer>
 
-        <section class="pie">
+        <section class="pie pie--gradient">
 
             <div class="pie__1">
                 <h3 class="pie__titulo">CONTACTO</h3>
+            <div class="pie__contacto">
+                <img class="pie__img" src="img/logo-wpp.png" alt="LOGO-WPP"></a>
                 <P class="pie__dato">0341-1236549</P>
+                <img class="pie__img" src="img/logo-tel.png" alt="LOGO-TEL"></a>
                 <P class="pie__dato">4626251</P>
+            </div>     
             </div>
             
             <div class="pie__1">
@@ -122,5 +128,10 @@
             </div>
         </section>   
     </footer>
+
+    <script>
+        AOS.init();
+      </script>
+
 </body>
 </html>
