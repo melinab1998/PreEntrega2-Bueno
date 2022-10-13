@@ -281,8 +281,8 @@ background-color:#F0F3BD;
     }
 
     .hero{
-        height: 50vh;
         display: flex;
+        height: 500px;
     }
 
     .hero__wrapper{
