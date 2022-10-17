@@ -255,6 +255,8 @@ background-color:#F0F3BD;
     font-size: 1rem;
 }
 
+/*mobile PONER ALFINAL*/
+
 @media screen and (max-width:320px) {
 
     
@@ -331,4 +333,43 @@ background-color:#F0F3BD;
     .pie__1{
         padding:1.5rem;
     }
+}
+
+/*NOSOTROS*/
+
+.encabezado__img{
+    height: 320px;
+    width: 1349px;
+}
+
+.info{
+    background-color:#F0F3BD;
+}   
+
+.info__titulo{
+text-align: center;
+font-size: 3rem;
+font-weight: bold;
+margin-top: 2rem;
+}
+
+.info__sub{
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 1349px;
+    padding: 1rem;
+}
+
+.info__parrafo{
+    display: inline-block;
+    text-align: justify;
+    margin: 1rem 3rem 1rem 3rem;
+}
+
+.info__video{
+    display: inline-block;
+    padding: 3rem;
+    width: 1000px;
+    height: 500px;
 }
